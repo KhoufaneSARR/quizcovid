@@ -2,9 +2,7 @@
 const form = document.getElementById('formulaire');
 
 form.addEventListener('submit', (event) => {
-  event.preventDefault(); 
-  
-  // Empêche le rechargement de la page après la soumission du formulaire
+  event.preventDefault(); // Empêche le rechargement de la page après la soumission du formulaire
   
   const temperature = document.getElementById('temperature').value;
   const toux = document.getElementById('toux').checked;
